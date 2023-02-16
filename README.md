@@ -1,10 +1,12 @@
-# ds-portfolio
+# ds-portfolio [In progress]
 Personal portfolio with activities related to data science and data analysis.
 
-## Courses
+
+## Languages
 * Python
 * SQL
 * Scala
+* Pyspark
 
 
 ## Projects
