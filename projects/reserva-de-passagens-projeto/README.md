@@ -15,11 +15,17 @@ Foram implementados:
 Abaixo os campos dos banco de dados
 
 **campos | tipo                  | exemplo**
+
 id       | integer identity PK   | 364
+
 linha    | Varchar(60)           | Santa Maria/Novo Hambugo
+
 origem   | Varchar(30)           | Santa Maria
+
 Destino  | Varchar(30)           | Novo Hamburgo
+
 DiaSemana| Varchar(60)           | Segunda-Feira
+
 Hora     | Time                  | 20:30
 
 ## Serviços públicos da API
