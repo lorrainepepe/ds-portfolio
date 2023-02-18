@@ -36,7 +36,7 @@ A API retornará todas as informações em formato JSON.
 
 O código contém tratamento de erros com mensagens ao usuário, logs e usa arquivos de configuração.
 
-Foi implementado:
+Outras implementações a serem feitas:
 
 * Todos os horários por linha
     * Santa Maria/Novo Hamburgo
