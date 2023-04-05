@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0324.2209                               -->
+<workbook original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (HPlus Data)' inline='true' name='federated.1dsv22b1tbc8df1g379qa10zu4k8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HPlus Data' name='excel-direct.1x57hv60d1ipul10tmxwf1i3vvqk'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Curtis/Desktop/Exercise Files/Chapter09/HPlus Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1x57hv60d1ipul10tmxwf1i3vvqk' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R5131:no:A1:R5131:0' header='yes' outcome='2'>
+            <column datatype='integer' name='EmpID' ordinal='0' />
+            <column datatype='string' name='Employee Name' ordinal='1' />
+            <column datatype='string' name='Employee Job Title' ordinal='2' />
+            <column datatype='string' name='Sales Region' ordinal='3' />
+            <column datatype='integer' name='OrderNum' ordinal='4' />
+            <column datatype='date' name='OrderDate' ordinal='5' />
+            <column datatype='string' name='OrderType' ordinal='6' />
+            <column datatype='string' name='CustomerType' ordinal='7' />
+            <column datatype='integer' name='Customer ID' ordinal='8' />
+            <column datatype='string' name='CustName' ordinal='9' />
+            <column datatype='string' name='CustState' ordinal='10' />
+            <column datatype='string' name='ProdCategory' ordinal='11' />
+            <column datatype='string' name='ProdNumber' ordinal='12' />
+            <column datatype='string' name='ProdName' ordinal='13' />
+            <column datatype='integer' name='Quantity' ordinal='14' />
+            <column datatype='real' name='Price' ordinal='15' />
+            <column datatype='real' name='Discount' ordinal='16' />
+            <column datatype='real' name='Order Total' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1x57hv60d1ipul10tmxwf1i3vvqk' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R5131:no:A1:R5131:0' header='yes' outcome='2'>
+            <column datatype='integer' name='EmpID' ordinal='0' />
+            <column datatype='string' name='Employee Name' ordinal='1' />
+            <column datatype='string' name='Employee Job Title' ordinal='2' />
+            <column datatype='string' name='Sales Region' ordinal='3' />
+            <column datatype='integer' name='OrderNum' ordinal='4' />
+            <column datatype='date' name='OrderDate' ordinal='5' />
+            <column datatype='string' name='OrderType' ordinal='6' />
+            <column datatype='string' name='CustomerType' ordinal='7' />
+            <column datatype='integer' name='Customer ID' ordinal='8' />
+            <column datatype='string' name='CustName' ordinal='9' />
+            <column datatype='string' name='CustState' ordinal='10' />
+            <column datatype='string' name='ProdCategory' ordinal='11' />
+            <column datatype='string' name='ProdNumber' ordinal='12' />
+            <column datatype='string' name='ProdName' ordinal='13' />
+            <column datatype='integer' name='Quantity' ordinal='14' />
+            <column datatype='real' name='Price' ordinal='15' />
+            <column datatype='real' name='Discount' ordinal='16' />
+            <column datatype='real' name='Order Total' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R5131:no:A1:R5131:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmpID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmpID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>EmpID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employee Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Employee Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Job Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employee Job Title]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Employee Job Title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sales Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sales Region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrderNum</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OrderNum]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OrderNum</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrderDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[OrderDate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OrderDate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrderType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OrderType]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OrderType</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustomerType]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CustomerType</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CustName</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustState</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustState]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CustState</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProdCategory</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProdCategory]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ProdCategory</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProdNumber</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProdNumber]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ProdNumber</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProdName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProdName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ProdName</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Order Total]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Order Total</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_BC01015AEA2343F19577C9C934D380CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cust Name' datatype='string' name='[CustName]' role='dimension' type='nominal' />
+      <column caption='Cust State' datatype='string' name='[CustState]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Customer ID]' role='dimension' type='ordinal' />
+      <column caption='Customer Type' datatype='string' name='[CustomerType]' role='dimension' type='nominal' />
+      <column caption='Emp ID' datatype='integer' name='[EmpID]' role='dimension' type='ordinal' />
+      <column datatype='real' default-format='C1033%' name='[Order Total]' role='measure' type='quantitative' />
+      <column caption='Order Date' datatype='date' name='[OrderDate]' role='dimension' type='ordinal' />
+      <column caption='Order Num' datatype='integer' name='[OrderNum]' role='dimension' type='ordinal' />
+      <column caption='Order Type' datatype='string' name='[OrderType]' role='dimension' type='nominal' />
+      <column caption='Prod Category' datatype='string' name='[ProdCategory]' role='dimension' type='nominal' />
+      <column caption='Prod Name' datatype='string' name='[ProdName]' role='dimension' type='nominal' />
+      <column caption='Prod Number' datatype='string' name='[ProdNumber]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BC01015AEA2343F19577C9C934D380CE]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_BC01015AEA2343F19577C9C934D380CE'>
+            <properties context=''>
+              <relation connection='excel-direct.1x57hv60d1ipul10tmxwf1i3vvqk' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:R5131:no:A1:R5131:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='EmpID' ordinal='0' />
+                  <column datatype='string' name='Employee Name' ordinal='1' />
+                  <column datatype='string' name='Employee Job Title' ordinal='2' />
+                  <column datatype='string' name='Sales Region' ordinal='3' />
+                  <column datatype='integer' name='OrderNum' ordinal='4' />
+                  <column datatype='date' name='OrderDate' ordinal='5' />
+                  <column datatype='string' name='OrderType' ordinal='6' />
+                  <column datatype='string' name='CustomerType' ordinal='7' />
+                  <column datatype='integer' name='Customer ID' ordinal='8' />
+                  <column datatype='string' name='CustName' ordinal='9' />
+                  <column datatype='string' name='CustState' ordinal='10' />
+                  <column datatype='string' name='ProdCategory' ordinal='11' />
+                  <column datatype='string' name='ProdNumber' ordinal='12' />
+                  <column datatype='string' name='ProdName' ordinal='13' />
+                  <column datatype='integer' name='Quantity' ordinal='14' />
+                  <column datatype='real' name='Price' ordinal='15' />
+                  <column datatype='real' name='Discount' ordinal='16' />
+                  <column datatype='real' name='Order Total' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sales by Quarter'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HPlus Data)' name='federated.1dsv22b1tbc8df1g379qa10zu4k8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dsv22b1tbc8df1g379qa10zu4k8'>
+            <column datatype='real' default-format='C1033%' name='[Order Total]' role='measure' type='quantitative' />
+            <column caption='Order Date' datatype='date' name='[OrderDate]' role='dimension' type='ordinal' />
+            <column-instance column='[Order Total]' derivation='Sum' name='[sum:Order Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OrderDate]' derivation='Quarter-Trunc' name='[tqr:OrderDate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1dsv22b1tbc8df1g379qa10zu4k8].[sum:Order Total:qk]</rows>
+        <cols>[federated.1dsv22b1tbc8df1g379qa10zu4k8].[tqr:OrderDate:qk]</cols>
+      </table>
+      <simple-id uuid='{D6AC8BFE-B4F3-4630-9E7E-5A3610A1DF33}' />
+    </worksheet>
+    <worksheet name='Sales by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (HPlus Data)' name='federated.1dsv22b1tbc8df1g379qa10zu4k8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dsv22b1tbc8df1g379qa10zu4k8'>
+            <column datatype='real' default-format='C1033%' name='[Order Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sales Region]' role='dimension' type='nominal' />
+            <column-instance column='[Sales Region]' derivation='None' name='[none:Sales Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Total]' derivation='Sum' name='[sum:Order Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1dsv22b1tbc8df1g379qa10zu4k8].[sum:Order Total:qk]' />
+              <color column='[federated.1dsv22b1tbc8df1g379qa10zu4k8].[sum:Order Total:qk]' />
+              <text column='[federated.1dsv22b1tbc8df1g379qa10zu4k8].[none:Sales Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7C4F8CFB-7609-4251-A671-4F9DC483E1CA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sales by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dsv22b1tbc8df1g379qa10zu4k8].[sum:Order Total:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dsv22b1tbc8df1g379qa10zu4k8].[none:Sales Region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8B3E4C89-D802-4CA6-8531-21F3821B3A1B}' />
+    </window>
+    <window class='worksheet' name='Sales by Quarter'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dsv22b1tbc8df1g379qa10zu4k8].[yr:OrderDate:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A65E2831-F7DD-4E0E-8C46-7B5A66222A82}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sales by Quarter' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAVd0lEQVR4nO3dZ3Nc152g8ed2jmjknAGCAUyiSFG21h45jCxXTU3VfsetmtdbtesZSx5p
+      Zl0yLTCAmQCBRm50zvH2DWdfkKJ31qAkQEQD4P3/qlSkCDT63GY/vPm0ppRSCOFQrpMegBAn
+      6VQFYNv2SQ9BOIwEIBztVAUgRKdJAMLRJADhaBKAcDQJQDiaBCAcTQIQjiYBCEc7dAD1Wg25
+      eEi8LzyH+eZGJcfS3ccs3viI4n6cuu0nqBpY/m66PG32c3Wuf3gdq5rh6cttRscn2N9N0DM4
+      RLOUhUCMa5fOsfnyGamCztRYN7v7ec5fvkp32H9cyyjEWx0qAF8gRNDvxTAMuqJhmlWFW3Oj
+      t3UMn5/FyQjVtokqN7l86wY7S3eZuPwxre1HdI3MoZqFVz/IG+TiSJC4DjcuzpBqNIkGPNi2
+      jWmax7GcQhzoUAFYhoFhWjSbFfRSHeXy4wv6KJcNPLh5vldm3uNFi4Z5dm+Zsek59p7dp294
+      lHpqAy3UQ6VSxmXprOR0pke7WV7d5vziFdxuN0opPJ5DDUmIn0Q77P0AjXqdYDiM9pavVypl
+      ol2xt379+5imKQGIjjp0AMdJAhCdJodBhaNJAMLRJADhaBKAcDQJQDiaBCAcTQIQjiYBCEeT
+      AISjSQDC0SQA4WgSgHA0CUA4mgQgHE0CEI4mAQhHkwCEox06AL3VkmlRxHvjUPcf6vUy3y49
+      4ML1WxT34xieKGGtRbntZjjmZTdb4/q1y1iNIk9X4kzOzpPYiNMzOkmzkIRgDxfnp0hsrbFf
+      1Jkb7Sa+m+Xi5ctEAt7jWkYh3upwN+BqGm63B03T6IpGyNQsCATodyuKBpwf7qGkG6h8mQs3
+      rrF79x6Di7dp7TzG3zeNahYB0G03cz1BNis61xYmSFfrBL1RmRZFdNzhAlAKpSwy2SRas0HL
+      AI/Rpmp4GIh6eJ5pcj4UwQx4eXb/IYNDo2w/W6ant4dGIo4rEKVSqWDrNVaKOqMjMR6+2GDu
+      kkyLIjpLKcVupnK4WSGUUlQrFSJdXaAUmvZfJz9RQCGXo7e//29fVwq0t0+S8urLGpoms0KI
+      49fUDe6u7POnextUGvr7NS1KodKkbVr4vW48bhd+rwef1/0ORyjOIqUUqUKNL+9ucG91n8mh
+      GL//+BznJ/rerwD+xxePebKRwbQsDNPGsl8tWjjgffVf0Ec05Ccc8BIJ+ggFvERDPiJBPwGf
+      h3DAS9DvIeT34vfJmuisMy2b+6tJvrwXJ1du8PPLE/z6xgx9XcE3Wy/vVQBKKZQCy7axlcK2
+      FYZpU2+1abQMas021Uabesug1tSpNQ3qrTaVuo5uWNSbbXTDpNpoo5QiFPASDvjexBIOeImE
+      /IT8HsIBH7Gwn4DfQzTkJxJ89X1+r/vNJp3G61+/ZxNQvFtKKcp1nS/uxvnz4x1GeiP8/vY8
+      i7OD+Dx/vzXwXgXwLlmWTUN/FU29abz5fa35KqB6s021ob/6/eu4ao02lm3j9bjxeVz4fR78
+      Xg9Bv4dI0Ec44Hu9xnkV1Fh/lMmhGN4D/mLE4ZiWzcvdPF/cjbO2l+eTK5P8481ZBrrD3/s4
+      CeAdMy0b3TBptU3ahkWjZdBqm1QaOk3dpFzXabQMGq02W6kSbdPml1cn+eTKJL1dwZMe/pnT
+      aBl8+yLBn+7FAfjs1jw3L4wQDvh+1OMlgBNkWTb7+Sp/XIpz/2WSudEePv9onsuzgyc9tFMv
+      U6zz1YNNvl7e4uJUP59/NM+58V7c7sNd3CABnAJKKXTD4u7KPl/cjVOsNvnNjRl+cXWKvlhQ
+      9iFeMy2b1Z0cX97bYHU3z68+mOY3H87SGw0c+TWSAE4ZpRR72Qr/8XCbeyv7jPZH+f3tec5P
+      9uH3OvO1qTZ0vn2e4I934wT9Hj67NcfN86ME3sGROgngFGu1Te6v7vP18hb5SpNPXh/Gc8K+
+      wnfH7r+4u8HSiwSXpvv5x5tzzI/14nK9uzWiBHAG2LYiX2nwv++scW91n4nBGL+9OcsH88Pv
+      9M1wGliWzcpOjv/5zSrJfI1/uDbFbz+cJRbxH8umoARwxuiGycO1NH/46xr5SoNfXp3iF9cm
+      GemLnvTQfpJKXeebJzv8+4NNwgEfn92a5falcTyH3Kk9LAngjFJKkczX+M+H2/z1+R4D3SE+
+      uzXHldlBgv6zcWm5UoqddJk/LsV5upnh0vQAn9+eZ2oo1rEdfwngPaAbJo/jab5+sMVWqsTP
+      Fsf5/Pb8D54EOim2rVheS/K/7qxRqrb49Ycz/PLaJLFwoONjkQDeI28uA1iK85dnu/R1hfjN
+      hzPcujB64meblVLUmm2+Xt7i3+9v0hMN8M+fnOfq3NCxb+Z8HwngPWWYFs+3svzhr2tkSw0+
+      WBjh0+vTjA9EO3pewbJt4okiXz3Y5NlmlmvzQ/zuozkmBmMdG8P3kQDec0opsqUGf368w/95
+      tE1/7NVa4YNzw8e6r9A2LO6tvjqxV2u2+ezWHB9fGqcr7D+25zwKCcBB2qbF6k6OPy7FWdsr
+      cPviGJ/fnmekL/JO1gpKKSoNnS/vbvD18hYTg138088WOD/Zd+KbYG8jAThUpa7z9fKra2mi
+      IR+fXp/h55fHj7RWsCybjWSJL+/FebiW4r9dneTzj+YZ7DmdO+H/r0MHYBoGbq/3SJ8E/4M/
+      WwLoONOyWd3N88VSnJ10icWZQX7z4QzTw90/uFZotAwevEzyr9+uoRT8+sYMHy+OEwn+uCsx
+      T4NDBWDode5+e49zV29STm5g+bsJqgYV08tYt5/tbJUrl85jt2s8e77G9PkLJNZW6R2foZlP
+      QKiP2Ylhcskd9gotzo11s7qV5tLiIgGvSwI4YcVqkzvP9vjT/Q0iQR+fXp/mZ4t/v1bIlRr8
+      6f4Gf368w9xYD5/dmuPCZP+JHs05qkMF0KzmWbr/nA9u38ZPm91knkouQffwDMpo0Ov3YvUO
+      obJ7+IdH2Hv0kOjCh+h7z9C6J1GtIvPz54jH43Rpih0TLg10kTP9jPZGsCwLl+vsvYjvG8uy
+      ie8X+beldVZ2Cty+NMan16domzb/thRndSfHJ4vj/PbmDP2x0Jm+WvVQAbRbddbW1lHeMGa9
+      xMTcArZeZ283SbAriGrbjMxMY5azFJoGLsOgoQL4tBaG5ULTYGF+hu2NddotG2/Eh8tSdA1P
+      MBgLyxrgFCpWmyy9SPDF3Q38Xje/vTnLzy9PvJMrMU+DQwVgWyab8Q1GZ2ao5DJo3iAhn0Zb
+      eegKeijX2hjNCr3Do1QKRXr6+qgUc4S6ejEaZTRfBLdm48am2jLpjgbIF2v09/XKtCin3Hdv
+      k7P8r/1B5CiQcDTZ4BaOJgEIR5MAhKNJAMLRJADhaBKAcDQJQDiaBCAcTQIQjiYBCEeTAISj
+      SQDC0SQA4WgSgHA0CUA42oEX3+v1EitrWyigd2icyZH+Dg9LiM44cA3g9vgJu9v89c4S24lM
+      p8ckRMccGIDHH8SrW4T7u2nU6v/la0opTs0tZEL8RG+9JbJWKOCKBKmWmgwN9gJgmzr3795j
+      7sqHNLK7WP4YEXebctvDUJeH3UyNhfkplNnm5Vqc6flz7G+u0Ts6Q6OQQAv1MzrQTbWQYb/U
+      Yma4m/WdNAsL83hcmtwSKTruLe+2Nn/4l39BTU0yPXHhTQCNWgnd9uDzuPD1D5JIZmlj41aK
+      nZZGj9dDqWVg5/YYGBth6+lD/GPnye6sQngIVUjDQDepfIkIihd7LaZ6I6SLVUZ6IiilsCyr
+      g4svnO4tAfj4/L//jq8evCQc/tvnUQVCMYYHutje3iXkUUzPTLO1EUdTCk2BZStcGigNTMtE
+      c7uxLROFBrb9ZmYBlMJSr77Xsm00z+uPrde0927WAXG6vXV7o14s4o+GyaRzMD8OgKZBMV9k
+      4doH7MdX2dxOMNwXo2p6GI94SORqkNqlZ3SSxNYWs4vXSG7HGZq9SCO/j6t3nEqlzNhwP6lS
+      m4tDXWzsZpibi+DSNGzblomxREcduA+Q392G3mECyiAYDuPq0L/Ksg8gOu3Ad1ujmObO/Sf0
+      hP2MzV7k0tx4p8clREccuAZo1aoof5CA13Mss0C/jawBRKcduMEdiERpJOKsJbKYphyVEe+v
+      t+5xRvt6KST3SaZznRyPEB311gCyGxssPbjLyvpeJ8cjREcdGECjlOFFssBAJEjfYF+nxyRE
+      xxy4xxnqHmRhsJu+cwuUkwVgurOjEqJD3r4PMDCIXqlz9drFTo5HiI56awCaW7G9vk4qk+/k
+      eIToqAMDsNs1lpaf4/O6CIVP/0ddCnFUBwaQ21pn4MJH/NNnvyS+utbpMQnRMQeeCVZWm6U7
+      f6Gq21y7+TEDsVBHBiNngkWnyWeECUeTa4+Fo0kAwtEkAOFoEoBwtEMHYJqmTIsi3huHCsDU
+      Gyzd+Qu5cp3tzVUq9Ta7G6s8Xd2gmEnw6Nkqlq0wWjUeLS9Trjd5/miZVL7M5svnbO6lAcgn
+      d3n8fI16Kcvyo6fohn0sCyfEDznUMcd2u4lhaQT8Pvx93bSbJtlcjp6ROQrVGhOxAMVWG5VN
+      M31pgcSjh0QWblDde4bWPYFqloAhSg2dkYDGaqbMhckBMuUqoz0RbNvGNM1jWlQh/t6hzgMY
+      rTrr8Q0sd4j+GDT1LqJhm73tBIGuIJqhGJqexixnKOkWqtWi5QrjsxsYyoOGzbn5WbY31jF0
+      C3fYh1dphAfGGOoOy3kA0XGHCsC2DOJr64zPnqOc3cd2B4kE3LSVh1jIS6nWwmrV6B0apZTP
+      0TcwSCmfIdzdT7tWQgtE8GDj1mwqDZPeriDZQoXBgX40TU6Eic6TM8HC0eQwqHA0CUA4mgQg
+      HE0CEI4mAQhHkwCEo0kAwtEkAOFoEoBwNAlAOJoEIBxNAhCOJgEIR5MAhKNJAMLRJADhaBKA
+      cDQJQDjaoQKwzTb37nxDsdYim0pQb5kUMgk299I0KnlW17exlcI2dVZevKDZNtl4+YJSrcn+
+      TpxkrgxAtZhlbXOXdrPKi5V1TPvU3JUpHOZQN+A2akV024vP48JwmTRrbQqlOm5bsd3U6PF6
+      KLcMrNwefSNDbD17iH/kHOntVbTwICqfYqQ/RipXJKgUK7tNJnrDpItVRnoiKKWwLPlcYtE5
+      hwogEIox1BdheyfB1FiUZhNQCgVoSmErxXcfLa+UjaZpKGW//n/Fm/vvlcJWoGlg2wrcf/s8
+      ek3r5GfTC6c71KwQVrvJ/XvLLFy7QWZrBdPTxXBvkJrpYSDiIZGrEdTa9IxMkNjaYnJujuTW
+      Or2jMzTyCVyRfgJuG7cySJXaTA51sbGbYX5uBrdLk1khRMfJtCjC0eQokHA0CUA4mgQgHE0C
+      EI4mAQhHkwCEo0kAwtEkAOFoEoBwNAlAOJoEIBxNAhCOJgEIR5MAhKNJAMLRJADhaBKAcDQJ
+      QDja0QJQitTmCnuFGuV8ms3dfYxWnf1UDqVA2RaJvQSmpcgk92i2TUq5NOVaCwC9USWZKWCZ
+      OnuJFDIrijgpR7oBVymL7a1dxq9PkM4WGRmfZHtnG83WqPbEMPN7GMrFxspTzEAPxeIKpjuI
+      ZheJXbzAzu4etmFTKnsIezxkyjWGYuHXP1tqEJ1ztDvQNTcT4yNs7uwxEdF48ugpvUO9DAQ9
+      GJaNbdp0D/Szn0oSHpmnvZ/BHx1EtUoAuNxeujyKfUtjMhamYFrYto1t2+9y2YT4QUecgsGm
+      UCgQG1rApap0DwwwHAuwm63RT5Jo/zCbL9eZvnydxPoqvePnXk+L0kelUqYnGmS/pHNhJMbL
+      nQwXLwzidrtQSsmsEKKjjjwtirIslMuN6/+bx+qnTG0i06KITjvyu01zuzloDjd5A4uzRA6D
+      CkeTAISjSQDC0SQA4WgSgHA0CUA4mgQgHE0CEI4mAQhHkwCEo0kAwtEkAOFoEoBwNAlAONqx
+      B9BoNI77KYQ4smO9eN9uFfnmzmOuXLtCbm8LLdjN4vlZduIrJIs6M6PdbCVyXLh8ha6g7ziH
+      IsSBjnUNoLn9BLwurGaZ8NA0Qe+rm88sl4+FgSi7DYvr56co12QtIU7GsQZgWxaWbVNtWZQS
+      capNi0qljGo3eJEsMuS1WX6xSSQUPM5hCPFWR74n+MeqVmtEo5Ef9b1yT7DotGMP4MeyLAul
+      FEopNO2gu41/2Ek89qc851GdteU8zY89NQF856cssGVZuN3uIz0ncOjnPerjgDdzILlch98K
+      PYk31FFf25/ynD/1sT9mzKcuACE66cydCDPbTfZTGSzLJJXKYNs22VSShm5QKeaoNXUAauUC
+      +VIVZVuUK9WTGaxSFLIpqg2dWrlApd6iVa+QzhWxDJ10JodSCtsySO4nMSybSjFHsVI7meHa
+      FqnkPrppkc+maBkW5UKOYqWO3qiSL1UAMFoNkukstmWS3E/Q0M0TGS/w+vWq06pXyJeqGHqD
+      ZCqLbVukUyksW4GyyST3abZNwKZcrrx5/JlbA5TyWUqlLLWmRjjsRmkR/D5FtVrFNDQ0N1ya
+      H+fpyz2Cmk50eJJsJsvlC+c6PlbL0MnmC+SLFTRLR2k+Bge6ySazeMJ+PJZBePQcrfQm3nCU
+      Sr1NT9hDulDl6uLFjo9Xr5fJl4qUCjUIRXCZBt2xKLl8EY9mo6GYXFhke/Up0UiItjtM2GuT
+      LtS5crHzry9AOrlHulDFp1kYpsbo+CDFdA5Dg2AwAN4IQbuKroWolMuM94V4spnnFx9fB87g
+      GsDt1nAF+ugJ+xgaHcYyTPRmi+mJAQLRPnxeF8poEezqY6A7jPJFiQb9JzJWl9tNq9FganqK
+      QChC0OdBKZvesXE8mpvRgRhN3cRQGkNDQ7gxsQyDiYnJExmv2+uh2dIY64/RMzCI26Vh6Q3G
+      pqbx+AN0RwK0LYXL62NooA9badTKJULBkzuM/d3r5fUHiAV9KE3DF+sl6PMxMjSAZbZpGRaD
+      gwP43BZPXqxTK2TQrVePP3MBFPN5ivkMga4YL59v0N/rJ1eqkq0otFYKX6gbV6gXr57l2XYB
+      fztPKpUiU+j8ZpCpNykUS2SyRVy2DoEwpXyWTDJJT0+UF7tlRnsCjA718WT5AfjCZDMZUuks
+      JzFNcKNUpFQt0fSEKG69JBrrJlsokk5liPpd5Ftuon4XvdEgy09W8Hs16i0DXyBwAqMFsN+8
+      XiGfixpe6oUcxWyGnr4enq/EGRwYZGxkhLXnT9CVn198+itu3vwA/+t94zO3CSTEu3Tm1gBC
+      vEsSgHA0CUA4mlx4IxzhwTdfkS43mFq8xaWpoTd/LgEIR0iXdH73q5/xhy//g0LtFpS32Xvx
+      UI4CCWdY/stX7CTTDE4usLuXIdblpVYsSgDCOSyjRa1lE4uG3vyZBCAc7f8CPRSfUw1/mNYA
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sales by Region' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
